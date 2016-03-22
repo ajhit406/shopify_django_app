@@ -24,14 +24,18 @@ partner.
 When you create your app in the Shopify Partner Account, set the
 return URL to "http://localhost:8000/login".
 
-Developing on Nitrous.IO
-------------------------
 
-Start hacking on this app on [Nitrous.IO](https://www.nitrous.io/?utm_source=github.com&utm_campaign=shopify_django_app&utm_medium=hackonnitrous) in seconds:
+## Nitrous Quickstart
 
-[![Hack shopify/shopify_django_app on
-Nitrous.IO](https://d3o0mnbgv6k92a.cloudfront.net/assets/hack-l-v1-3cc067e71372f6045e1949af9d96095b.png)](https://www.nitrous.io/hack_button?source=embed&runtime=django&repo=shopify%2Fshopify_django_app&file_to_open=README.nitrous.md)
+You can quickly create a dev environment in the cloud on www.nitrous.io:
 
+[![Nitrous Quickstart](https://nitrous-image-icons.s3.amazonaws.com/quickstart.svg)](https://www.nitrous.io/quickstart)
+
+Set the return URL to "http://your-workstation-slug.nitrouspro.com:3000/login". Your workstation slug can be found by visiting "Settings > Manage Ports" for your django project.
+
+1. `cd ~/code/shopify_django_app`
+2. `./script/setup`
+3. `./script/server`
 
 Regular Django Application
 --------------------------

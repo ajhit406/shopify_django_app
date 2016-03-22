@@ -13,16 +13,15 @@ export SHOPIFY_API_SECRET=CCCCCCCCCCC
 ```
 
 When you create your app in the Shopify Partner Account, set the
-return URL to port 3000 of your box "http://your-box-name.nitrousbox.com:3000/login".
+return URL to port 3000 of your box "http://your-workstation-slug.nitrouspro.com:3000/login". Your workstation slug can be found by visiting "Settings > Manage Ports" for your django project.
+
 
 ## Setup
 
-Run the following commands in the terminal
+Run the following commands in the terminal:
 
-1. `cd ~/workspace/shopify_django_app`
+1. `cd ~/code/shopify_django_app`
 2. `./script/setup`
 3. `./script/server`
 
 Go to the "Preview Menu" and click "Port 3000"
-
-
