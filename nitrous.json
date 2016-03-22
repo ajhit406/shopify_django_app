@@ -1,0 +1,7 @@
+{
+  "template": "django",
+  "ports": [8000],
+  "name": "Shopify Django App",
+  "logo": "",
+  "description": "Get a Shopify app up and running with Django and Python Shopify API."
+}

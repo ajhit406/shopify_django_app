@@ -31,11 +31,10 @@ You can quickly create a dev environment in the cloud on www.nitrous.io:
 
 [![Nitrous Quickstart](https://nitrous-image-icons.s3.amazonaws.com/quickstart.svg)](https://www.nitrous.io/quickstart)
 
-Set the return URL to "http://your-workstation-slug.nitrouspro.com:3000/login". Your workstation slug can be found by visiting "Settings > Manage Ports" for your django project.
+Set the return URL to "http://your-workstation-slug.nitrouspro.com:8000/login". Your workstation slug can be found by visiting "Settings > Manage Ports" for your django project.
 
 1. `cd ~/code/shopify_django_app`
-2. `./script/setup`
-3. `./script/server`
+2. `./script/server`
 
 Regular Django Application
 --------------------------
